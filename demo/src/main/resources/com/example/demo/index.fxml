@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Button fx:id="btnClose" layoutX="474.0" layoutY="340.0" mnemonicParsing="false" onAction="#onCloseButtonClick" prefHeight="45.0" prefWidth="108.0" text="close" />
+      <Button fx:id="btnDownload" layoutX="10.0" layoutY="340.0" mnemonicParsing="false" onAction="#onDownloadButtonClick" prefHeight="45.0" prefWidth="108.0" text="download" />
+      <TableView fx:id="tvMain" layoutX="7.0" layoutY="10.0" prefHeight="321.0" prefWidth="577.0">
+        <columns>
+          <TableColumn prefWidth="150.0" text="id" />
+            <TableColumn prefWidth="150.0" text="item_name" />
+          <TableColumn prefWidth="150.0" text="SN" />
+        </columns>
+      </TableView>
+   </children>
+</Pane>
